@@ -8,11 +8,20 @@
   </head>
   <body>
     <h1>QUIZ APP</h1>
-    <div id="question"></div>
-    <button id="answer1"></button>
-    <button id="answer2"></button>
-    <button id="answer3"></button>
-    <button id="answer4"></button>
+    <h2>Correct answers: <span id="good-answers">0</span></h2>
+    <div id="game-board">
+      <div id="tip"></div>
+      <button id="phone-friend">Friend Phone</button>
+      <button id="fifty-fifty">Fifty - fifty</button>
+      <button id="question-audience">Audience question</button>
+      <hr />
+      <div id="question"></div>
+      <br />
+      <button class="answer-btn" id="answer1" data-answer="0"></button>
+      <button class="answer-btn" id="answer2" data-answer="1"></button>
+      <button class="answer-btn" id="answer3" data-answer="2"></button>
+      <button class="answer-btn" id="answer4" data-answer="3"></button>
+    </div>
 
     <script src="script.js"></script>
   </body>
